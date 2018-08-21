@@ -14,7 +14,7 @@ import { NgModule } from '@angular/core';
   providedIn: 'root'
 })
 export class ShareService {
-  API_URL  =  'http://103.207.1.123:83/';
+  API_URL  =  'http://103.207.1.123:82/';
 
   constructor(private  http:  HttpClient) { }
   postShop(credentials,type){
